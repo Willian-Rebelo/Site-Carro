@@ -42,3 +42,9 @@ class MobileNavbar {
     ".nav-list li",
   );
   mobileNavbar.init();
+
+    function Cadastro (){ 
+    let Cadastro = document.getElementById("Cadastro");
+    Cadastro.classList.toggle("hide")
+      }
+    

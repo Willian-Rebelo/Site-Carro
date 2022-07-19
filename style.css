@@ -158,8 +158,14 @@
    text-decoration: overline;
   }
 
-  .cadastro{
-   width: 30%;
-   height: 15%;
-  }
+#Cadastro{
 
+  align-items: center;
+  justify-items: center;
+}
+.hide{
+  display: none;
+  
+
+
+}
