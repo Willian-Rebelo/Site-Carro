@@ -130,42 +130,70 @@
     background-size: cover;
     height: 100vh;
     background-position-x: center;
+    text-align: left;
 
   }
   .div1{
+    padding: 100px;
     background-image: url(img1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    background-position: center;
-    color: rgba(250, 234, 234, 0.685);
+    background-position-x: center;
     align-items: text;
-    text-align:center;
+    text-align:left;
+    padding-top: 45px;
+    color: rgba(250, 234, 234, 0.685);
+  
   }
   .div2{
     background-image: url(car3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 98vh;
-    width: 99.9%;
+    height: 99.5vh;
+    width:100%;
     background-position: center;
     align-items: text;
     text-align: center;
     
   }
-  
-  .text1{
-   text-decoration: overline;
-  }
+.parag2{
+  position: absolute;
+  left: 77px;
+  align-items: left;
+  justify-items: center;
+  padding: 12px;
+  font-family: serif;
+}
 
 #Cadastro{
 
   align-items: center;
   justify-items: center;
+ 
 }
+
 .hide{
   display: none;
-  
+ 
+}
+
+.butt-cadas{
+  position: sticky;
+  margin-top: 25px;
+  width: 100px;
+  height: 20px; 
+  border-radius: 10px;
+}
 
 
+.bnt{
+  margin-top: 3.5px;
+  width: 46px;
+  height: 20.5px;
+  background-color: white;
+  color: black;
+  border: 0.2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(40, 96, 110, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.952);
 }
