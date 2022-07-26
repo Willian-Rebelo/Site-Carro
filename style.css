@@ -175,6 +175,7 @@
 
 .hide{
   display: none;
+
  
 }
 
@@ -183,17 +184,26 @@
   margin-top: 25px;
   width: 100px;
   height: 20px; 
-  border-radius: 10px;
+  border-radius: 10px ;
+  background-color: white;
+  border-radius: 15px solid red;
+  
 }
 
 
-.bnt{
-  margin-top: 3.5px;
-  width: 46px;
-  height: 20.5px;
-  background-color: white;
-  color: black;
-  border: 0.2px solid white;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(40, 96, 110, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.952);
+#bnt{
+display: flex;
+align-items: center;
+margin-top: 1px;
+border-radius: 20px solid black;
+
+
+
+}
+
+#botoes{
+display:flex;
+justify-content: center;
+
+
 }
