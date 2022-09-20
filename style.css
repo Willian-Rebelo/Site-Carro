@@ -147,14 +147,15 @@
   
   }
   .div2{
-    background-image: url(car3.jpg);
+    background-image: url(imgcarro5.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 99.5vh;
-    width:100%;
+   background-size: cover;
+    height: 89vh;
+   
     background-position: center;
     align-items: text;
     text-align: center;
+    color: aliceblue;
    
  
     
@@ -217,7 +218,7 @@ background-color: rgba(255, 255, 255, 0);
   opacity: 0.8;
   border-radius: 10px;
   background-color: #00000000;
-  
+  background-image: linear-gradient(40deg, rgba(223, 224, 224, 0.568), rgba(136, 141, 145, 0.445) )
 }
 .caixa{
   width: 320px;
@@ -227,6 +228,7 @@ background-color: rgba(255, 255, 255, 0);
   margin: 20px;
   display:inline-block;
   outline-style:outset;
-  border-bottom: 5px solid rgb(255, 217, 0);
+  border-bottom: 5px solid rgba(28, 2, 63, 0.705);
+  ;
 
 }
